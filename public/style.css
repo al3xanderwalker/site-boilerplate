@@ -1,58 +1,24 @@
 ::-webkit-scrollbar {
   width: 0px;
 }
-.bottomright {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
 body {
   background-color: #2e3138;
 }
-#textHolder {
-  height: 70vh;
+main {
+  width: 85%;
+  float: right;
 }
-#navbar,
-#chat-container {
+#navbar {
   background-color: #21252b;
 }
-.header {
-  padding: 2px;
-  display: grid;
-  background: #1abc9c;
+#sidebar {
+  background-color: #21252b;
+  width: 15%;
+  height: 100vh;
+  text-align: center;
+  vertical-align: middle;
+}
+#title {
+  text-align: center;
   color: white;
-  font-size: 30px;
-}
-hr.rounded {
-  border-top: 8px solid #bbb;
-  border-radius: 5px;
-}
-@media only screen and (max-width: 1280px) {
-  #chat-container {
-    display: none;
-  }
-  #main {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  #main {
-    width: 85%;
-    float: right;
-  }
-}
-.chatMessage {
-  background-color: rgb(31, 30, 30);
-  border: 1px solid rgba(255, 255, 255, 0.226);
-  border-radius: 5px;
-  padding: 4px;
-  margin-bottom: 3px;
-}
-.chatMessage img {
-  max-width: 30px;
-  border-radius: 50%;
-  margin: auto;
 }

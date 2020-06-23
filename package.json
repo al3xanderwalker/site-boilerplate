@@ -1,14 +1,10 @@
 {
-  "name": "uscript-list",
+  "name": "site-boilerplate",
   "version": "1.0.0",
-  "description": "uscript-list site",
+  "description": "site-boilerplate",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "autismalex-xyz"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",

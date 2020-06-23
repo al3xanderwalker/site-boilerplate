@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>UnturnedFlip</title>
+    <title>Example</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Casin0" />
@@ -13,107 +13,35 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
-
     <link rel="stylesheet" href="/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
     <script src="/script.js" defer></script>
   </head>
-  <body style="overflow-x: hidden;">
-    <div id="main">
+  <body>
+    <main>
       <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="navbar-collapse">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Home</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Servers <span class="sr-only">(current)</span></a
-              >
-            </li>
-          </ul>
-          <ul class="nav navbar-nav ml-auto">
-            <li>
-              <button
-                class="btn btn-outline-success"
-                onclick="window.location.href='/auth/steam'"
-                type="button"
-                onclick=""
-              >
-                Log in
-              </button>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page 2</a>
             </li>
           </ul>
         </div>
       </nav>
-      <h1 style="text-align: center; color: white;" class="mt-1 mb-1">
-        Servers
+      <h1 id="title">
+        Example
       </h1>
-      <div id="coinflipContainer" class="row justify-content-center"></div>
-    </div>
-    <div
-      id="chat-container"
-      style="
-        width: 15%;
-        height: 100vh;
-        text-align: center;
-        vertical-align: middle;
-      "
-      class="col-2"
-    >
-      <h1 style="color: white;">
-        Awaiting<br />
-        Gaming
-      </h1>
-      <hr class="rounded" />
-      <img
-        src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/68/6812facde0a93e15f6dd72de10107766452c5560_full.jpg"
-        class="mt-1"
-        style="
-          height: 80px;
-          border-radius: 50%;
-          border: 2px solid rgb(44, 126, 194);
-        "
-      />
-      <h1 style="color: white; font-size: 1.25vw;"></h1>
-      <hr class="rounded" />
-      <div class="chat">
-        <div
-          class="rounded mt-1"
-          id="textHolder"
-          style="
-            width: 100%;
-            overflow-y: scroll;
-            color: white;
-            text-align: left;
-            border: 1px solid rgba(255, 255, 255, 0.315);
-          "
-        >
-          <div class="chatMessage">
-            <img
-              src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/68/6812facde0a93e15f6dd72de10107766452c5560_full.jpg"
-              alt="Avatar"
-              class="mb-1 mr-1"
-            /><span style="color: red; font-size: 1.2rem;">System: </span>
-            <p>
-              New Server Just Released:<br />
-              [AG5] Roleplay
-            </p>
-          </div>
-        </div>
+    </main>
+    <aside>
+      <div id="sidebar" class="col-2">
+        <h1 style="color: white;">
+          Example
+        </h1>
       </div>
-    </div>
+    </aside>
   </body>
 </html>
