@@ -1,2 +1,0 @@
-# autismalex-xyz
- Main Site
