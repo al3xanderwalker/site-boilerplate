@@ -1,24 +1,21 @@
-::-webkit-scrollbar {
-  width: 0px;
-}
+@font-family{
+  'Montserrat', sans-serif;
+} 
+
 body {
   background-color: #2e3138;
+  font-family: Montserrat;
 }
-main {
-  width: 85%;
-  float: right;
+.card {
+  padding: 20px;
+  background: white;
+  border-radius: 7px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-#navbar {
-  background-color: #21252b;
-}
-#sidebar {
-  background-color: #21252b;
-  width: 15%;
-  height: 100vh;
-  text-align: center;
-  vertical-align: middle;
-}
-#title {
-  text-align: center;
-  color: white;
+.card-title{
+  font-size:30px;
+  font-weight: 600;
 }
